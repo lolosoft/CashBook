@@ -18,7 +18,5 @@ var
 implementation
 
 {$R *.fmx}
-{$R *.Windows.fmx MSWINDOWS}
-{$R *.iPhone55in.fmx IOS}
 
 end.
