@@ -1,4 +1,4 @@
-object WebModule1: TWebModule1
+object webDM: TwebDM
   OldCreateOrder = False
   Actions = <
     item

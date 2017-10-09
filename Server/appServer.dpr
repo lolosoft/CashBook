@@ -6,7 +6,7 @@ uses
   Web.WebReq,
   IdHTTPWebBrokerBridge,
   uServerMain in 'uServerMain.pas' {fmServerMain},
-  uWebModule in 'uWebModule.pas' {WebModule1: TWebModule};
+  uWebModule in 'uWebModule.pas' {webDM: TWebModule};
 
 {$R *.res}
 

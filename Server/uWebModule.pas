@@ -5,7 +5,7 @@ interface
 uses System.SysUtils, System.Classes, Web.HTTPApp;
 
 type
-  TWebModule1 = class(TWebModule)
+  TwebDM = class(TWebModule)
     procedure WebModule1DefaultHandlerAction(Sender: TObject;
       Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
   private
@@ -15,7 +15,7 @@ type
   end;
 
 var
-  WebModuleClass: TComponentClass = TWebModule1;
+  WebModuleClass: TComponentClass = TwebDM;
 
 implementation
 
@@ -23,7 +23,7 @@ implementation
 
 {$R *.dfm}
 
-procedure TWebModule1.WebModule1DefaultHandlerAction(Sender: TObject;
+procedure TwebDM.WebModule1DefaultHandlerAction(Sender: TObject;
   Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
 begin
   Response.Content :=
