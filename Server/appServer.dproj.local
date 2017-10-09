@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2017.10.09 18:11:38.575,=D:\Мои документы\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
-    <Transaction>2017.10.09 18:11:40.065,=D:\Мои документы\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
-    <Transaction>2017.10.09 18:14:40.339,D:\Мои документы\Embarcadero\Studio\Projects\appServer.dproj=D:\Мои документы\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2017.10.09 18:14:50.044,D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.dfm=D:\Мои документы\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
-    <Transaction>2017.10.09 18:14:50.044,D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.pas=D:\Мои документы\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
-    <Transaction>2017.10.09 18:14:59.921,D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.dfm=D:\Мои документы\Embarcadero\Studio\Projects\FormUnit1.dfm</Transaction>
-    <Transaction>2017.10.09 18:14:59.921,D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.pas=D:\Мои документы\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
-    <Transaction>2017.10.09 18:21:28.635,D:\DelphiPrograms\BDS\CashBook\Server\uServerMain.pas=D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.pas</Transaction>
-    <Transaction>2017.10.09 18:21:28.635,D:\DelphiPrograms\BDS\CashBook\Server\uServerMain.dfm=D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.dfm</Transaction>
-    <Transaction>2017.10.09 18:21:30.550,D:\DelphiPrograms\BDS\CashBook\Server\uWebModule.pas=D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.pas</Transaction>
-    <Transaction>2017.10.09 18:21:30.550,D:\DelphiPrograms\BDS\CashBook\Server\uWebModule.dfm=D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.dfm</Transaction>
-    <Transaction>2017.10.09 18:21:32.204,D:\DelphiPrograms\BDS\CashBook\Server\appServer.dproj=D:\Мои документы\Embarcadero\Studio\Projects\appServer.dproj</Transaction>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.575,=D:\Мои документы\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.635,D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.pas=D:\DelphiPrograms\BDS\CashBook\Server\uServerMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,D:\Мои документы\Embarcadero\Studio\Projects\WebModuleUnit1.pas=D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.204,D:\Мои документы\Embarcadero\Studio\Projects\appServer.dproj=D:\DelphiPrograms\BDS\CashBook\Server\appServer.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,D:\Мои документы\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.921,D:\Мои документы\Embarcadero\Studio\Projects\FormUnit1.pas=D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.339,D:\Мои документы\Embarcadero\Studio\Projects\Project1.dproj=D:\Мои документы\Embarcadero\Studio\Projects\appServer.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.635,D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.dfm=D:\DelphiPrograms\BDS\CashBook\Server\uServerMain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.921,D:\Мои документы\Embarcadero\Studio\Projects\FormUnit1.dfm=D:\Мои документы\Embarcadero\Studio\Projects\uServerMain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,=D:\Мои документы\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.550,D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.dfm=D:\DelphiPrograms\BDS\CashBook\Server\uWebModule.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.550,D:\Мои документы\Embarcadero\Studio\Projects\uWebModule.pas=D:\DelphiPrograms\BDS\CashBook\Server\uWebModule.pas</Transaction>
   </Transactions>
 </BorlandProject>
