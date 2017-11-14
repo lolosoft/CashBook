@@ -1,10 +1,7 @@
 __history
 dcu
 *.exe
-/pgCashBook.groupproj.local
-/Client/appClient.dproj.local
-/Client/appClient.identcache
-/Server/appServer.identcache
-/Server/appServer.dproj.local
+*.local
+*.identcache
 *.dsk
 *.~dsk
