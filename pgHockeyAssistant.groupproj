@@ -3,10 +3,13 @@
         <ProjectGuid>{31B943C4-86C3-4894-8D63-977CBA2AE418}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="Server\HockeyAssistantSrv.dproj">
+        <Projects Include="Server\srvrHockeyAssistant.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Client\HockeyAssistantClient.dproj">
+        <Projects Include="Client\fmxHockeyAssistantClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Client\vclHockeyAssistantClient.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -17,32 +20,41 @@
             <Default.Personality/>
         </BorlandProject>
     </ProjectExtensions>
-    <Target Name="HockeyAssistantSrv">
-        <MSBuild Projects="Server\HockeyAssistantSrv.dproj"/>
+    <Target Name="srvrHockeyAssistant">
+        <MSBuild Projects="Server\srvrHockeyAssistant.dproj"/>
     </Target>
-    <Target Name="HockeyAssistantSrv:Clean">
-        <MSBuild Projects="Server\HockeyAssistantSrv.dproj" Targets="Clean"/>
+    <Target Name="srvrHockeyAssistant:Clean">
+        <MSBuild Projects="Server\srvrHockeyAssistant.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="HockeyAssistantSrv:Make">
-        <MSBuild Projects="Server\HockeyAssistantSrv.dproj" Targets="Make"/>
+    <Target Name="srvrHockeyAssistant:Make">
+        <MSBuild Projects="Server\srvrHockeyAssistant.dproj" Targets="Make"/>
     </Target>
-    <Target Name="HockeyAssistantClient">
-        <MSBuild Projects="Client\HockeyAssistantClient.dproj"/>
+    <Target Name="fmxHockeyAssistantClient">
+        <MSBuild Projects="Client\fmxHockeyAssistantClient.dproj"/>
     </Target>
-    <Target Name="HockeyAssistantClient:Clean">
-        <MSBuild Projects="Client\HockeyAssistantClient.dproj" Targets="Clean"/>
+    <Target Name="fmxHockeyAssistantClient:Clean">
+        <MSBuild Projects="Client\fmxHockeyAssistantClient.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="HockeyAssistantClient:Make">
-        <MSBuild Projects="Client\HockeyAssistantClient.dproj" Targets="Make"/>
+    <Target Name="fmxHockeyAssistantClient:Make">
+        <MSBuild Projects="Client\fmxHockeyAssistantClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="vclHockeyAssistantClient">
+        <MSBuild Projects="Client\vclHockeyAssistantClient.dproj"/>
+    </Target>
+    <Target Name="vclHockeyAssistantClient:Clean">
+        <MSBuild Projects="Client\vclHockeyAssistantClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="vclHockeyAssistantClient:Make">
+        <MSBuild Projects="Client\vclHockeyAssistantClient.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
-        <CallTarget Targets="HockeyAssistantSrv;HockeyAssistantClient"/>
+        <CallTarget Targets="srvrHockeyAssistant;fmxHockeyAssistantClient;vclHockeyAssistantClient"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="HockeyAssistantSrv:Clean;HockeyAssistantClient:Clean"/>
+        <CallTarget Targets="srvrHockeyAssistant:Clean;fmxHockeyAssistantClient:Clean;vclHockeyAssistantClient:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="HockeyAssistantSrv:Make;HockeyAssistantClient:Make"/>
+        <CallTarget Targets="srvrHockeyAssistant:Make;fmxHockeyAssistantClient:Make;vclHockeyAssistantClient:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
