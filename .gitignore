@@ -5,3 +5,6 @@ dcu
 *.identcache
 *.dsk
 *.~dsk
+*.skincfg
+*.vlb
+*.stat

@@ -1,0 +1,12 @@
+object fmMain_FXM: TfmMain_FXM
+  Left = 0
+  Top = 0
+  Caption = #1061#1086#1082#1082#1077#1081#1085#1099#1081' '#1072#1089#1080#1089#1090#1077#1085#1090
+  ClientHeight = 500
+  ClientWidth = 338
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+end
